@@ -69,7 +69,7 @@ Attach the Ginobot PCB Adaptor to the Ginobot
 # 4) Programming The Arduino
 
 The library has beed developed to allow the Arduino to communicate with the GinoBot. It has been designed to make it easy to use with the [Arduino IDE](https://www.arduino.cc/en/software)
-with multiple of [examples](https://github.com/enginotoys/Arduino-GinoBot/tree/main/examples/blinky) to allow you to easily create your own code. You need to create an object when using the library (GinoBot "objct_name").
+with multiple of [examples](https://github.com/enginotoys/Arduino-GinoBot/tree/main/examples/) to allow you to easily create your own code. You need to create an object when using the library (GinoBot "objct_name").
 
 ### The usable command are as followed:
 
