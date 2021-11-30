@@ -1,0 +1,2 @@
+# Arduino Library
+This are the source files that are utilized for controlling the [GinotBot](https://www.engino.com/w/index.php/products/innolabs-robotics/ginobot) using an [Arduino](https://www.arduino.cc/).
