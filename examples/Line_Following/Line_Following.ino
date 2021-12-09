@@ -64,5 +64,9 @@ void loop()
   else if(Left == 1 && distance >150)
   {
     gbot.rotate_right(Turn_Speed);
-  }  
+  }
+  else
+  {
+    gbot.stop();
+  }
 }
