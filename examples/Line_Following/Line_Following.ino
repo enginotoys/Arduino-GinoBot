@@ -21,11 +21,10 @@
 #define LED 13
 
 // Defining Variables
-int distance = 0;
 int Right = 0;
 int Left = 0;
 int Move_Speed = 70;
-int Turn_Speed = 60;
+int Turn_Speed = 55;
 
 // Assigning Object for Library
 Ginobot gbot;
@@ -51,22 +50,21 @@ void loop()
 
   Right = gbot.get_bottom_right();
   Left = gbot.get_bottom_left();
-  distance = gbot.get_distance_front_mm();
 
-  if (Right == 0 && Left == 0 && distance >150)
+  if (Right == 0 && Left == 0 )
   {
     gbot.move_forward(Move_Speed);
   }
-  else if(Right == 1 && distance >150)
+  if(Right == 1 && Left == 0)
   {
     gbot.rotate_left(Turn_Speed);
   }
-  else if(Left == 1 && distance >150)
+  else if(Left == 1 && Right == 0)
   {
     gbot.rotate_right(Turn_Speed);
   }
-  else
+  else if (Right == 1 && Left == 1)
   {
-    gbot.stop();
+    gbot.move_backward(Move_Speed);
   }
 }
