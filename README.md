@@ -23,7 +23,7 @@ The Arduino must be connected in the following way:
 
 | Arduino | GinoBot "HOST MCU" Header Pin |
 | ------- | ----------------------------- |
-|   SCL   |           SDA                 |
+|   SCL   |           SCL                 |
 |   SDA   |           SDA                 |
 |   Vin   |            9V                 |
 |   GND   |           GND                 |
