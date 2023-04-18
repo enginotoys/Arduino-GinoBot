@@ -21,12 +21,13 @@ The I2C connection is established using the SCL pin (Clock) and SDA pin (Data), 
 
 The Arduino must be connected in the following way:
 
-| Arduino | GinoBot "HOST MCU" Header Pin |
-| ------- | ----------------------------- |
-|   SCL   |           SCL                 |
-|   SDA   |           SDA                 |
-|   Vin   |            9V                 |
-|   GND   |           GND                 |
+| Arduino | Arduino UNO | GinoBot "HOST MCU" Header Pin |
+| ------- | ----------- | ----------------------------- |
+|   SCL   |     A5      |           SCL                 |
+|   SDA   |     A4      |           SDA                 |
+|   Vin   |             |            9V                 |
+|   GND   |             |           GND                 |
+
 
 # Connecting Steps
 
