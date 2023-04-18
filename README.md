@@ -55,8 +55,8 @@ Attach the Dupont Wire to the Arduino. Please refer to the table in [Section 3](
 
 ## Step 4
 Attach the Dupont wires to the GinoBot "Host MCU" header. Please refer to the Table in [Section 3](#3-Wiring).
-### Host Header on GinoBot
-<img src="/assets/images/IMG_3867.JPG" width="50%">
+### Host Header on GinoBot (for both Ginobot versions)
+<img src="/assets/images/SNAG-2023-04-18 09_58_47.png" width="80%">
 
 ### Host Header Wired
 <img src="/assets/images/IMG_3868.JPG" width="50%">
